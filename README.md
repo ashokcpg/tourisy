@@ -46,3 +46,7 @@ The following concepts are/were applied to the respective section during the dev
 28.  On Navigation menu, **Learned about Checkbox hack**.
 29.  Custom Animation Timing functions were implemented using cubic bezier curves.
 30.  Learned how to use **transform-origin** property.
+31.	 Using **srcset** attribute on **<img>** and **<source>**  elements, together with density descriptor.
+32.	 Learned to use **<picture>** element for **art direction**.
+33.  Learned to write **media queries** in **HTML**.
+34.	 Allow browser to decide the best image to download, using **srcset** attribute, width descriptor and the **sizes** attribute of **<img>** element.

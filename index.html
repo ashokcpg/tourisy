@@ -70,9 +70,34 @@
                     </div>
                     <div class="col-1-of-2">
                         <div class="composition">
-                            <img src="img/photo-1.jpg" alt="Photo 1" class="composition__photo composition__photo--p1">
-                            <img src="img/photo-2.jpg" alt="Photo 2" class="composition__photo composition__photo--p2">
-                            <img src="img/photo-3.jpg" alt="Photo 3" class="composition__photo composition__photo--p3">
+
+                            <!-- Enabling Density Switching and Resolution Switching... -->
+
+                            <img srcset="img/photo-1-mobile.jpg 700w, img/photo-1-large.jpg 1500w"
+                                 sizes="(max-width: 900px) 15vw, (max-width: 600px) 30vw, 350px"
+                                 alt="Phto 1" 
+                                 class="composition__photo composition__photo--p1" 
+                                 src="img/photo-1-large.jpg"
+                            >
+
+                            <img srcset="img/photo-2-mobile.jpg 700w, img/photo-2-large.jpg 1500w"
+                            sizes="(max-width: 900px) 15vw, (max-width: 600px) 30vw, 350px"
+                            alt="Photo 2" 
+                            class="composition__photo composition__photo--p2" 
+                            src="img/photo-2-large.jpg"
+                            >
+
+                            <img srcset="img/photo-3-mobile.jpg 700w, img/photo-3-large.jpg 1500w"
+                            sizes="(max-width: 900px) 15vw, (max-width: 600px) 30vw, 350px"
+                            alt="Photo 3" 
+                            class="composition__photo composition__photo--p3" 
+                            src="img/photo-3-large.jpg"
+                            >
+
+                            <!-- <img src="img/photo-1-large.jpg" alt="Photo 1" class="composition__photo composition__photo--p1">
+                            <img src="img/photo-2-large.jpg" alt="Photo 2" class="composition__photo composition__photo--p2">
+                            <img src="img/photo-3-large.jpg" alt="Photo 3" class="composition__photo composition__photo--p3"> -->
+                        
                         </div>
                     </div>
                 </div>
@@ -348,7 +373,16 @@
         </main>
         <footer class="footer">
             <div class="footer__logo-box">
-                <img src="img/logo.png" alt="Full Logo" class="footer__logo">
+
+                <picture class="footer__logo">
+
+                    <source srcset="img/logo--1x.png 1x, img/logo--1x.png 2x" 
+                            media="(max-width: 37.5em">
+                        <img srcset="img/logo--1x.png 1x, img/logo.png 2x" alt="Full Logo" src="img/logo.png">
+                    </source>
+
+                </picture>
+
             </div>
             <div class="row">
                 <div class="col-1-of-2">
@@ -382,8 +416,26 @@
         <div class="popup" id="popup">
             <div class="popup__content">
                 <div class="popup__left">
+                    
+                    
+                    <img srcset="img/scenary-1-mobile.jpg 223w, img/scenary-1-large.jpg 446w"
+                    sizes="(max-width: 900px) 15vw, (max-width: 600px) 30vw, 446px"
+                    alt="Pop up Image 1" 
+                    class="popup__img" 
+                    src="img/scenary-1-large.jpg"
+                    >
+
+                    <img srcset="img/scenary-2-mobile.jpg 223w, img/scenary-2-large.jpg 446w"
+                    sizes="(max-width: 900px) 15vw, (max-width: 600px) 30vw, 446px"
+                    alt="Pop up Image 2" 
+                    class="popup__img" 
+                    src="img/scenary-2-large.jpg"
+                    >
+                    
+                    
+                    
                     <img src="img/scenary-1.jpg" alt="" class="popup__img">
-                    <img src="img/scenary-2.jpg" alt="" ckass="popup__img">
+                    <img src="img/scenary-2.jpg" alt="" class="popup__img">
                 </div>
                 <div class="popup__right">
                     <a href="#section-tours" class="popup__close">&times;</a>
