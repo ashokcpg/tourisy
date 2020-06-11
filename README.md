@@ -50,5 +50,3 @@ The following concepts are/were applied to the respective section during the dev
 32.  Learned to use **picture** element for **art direction**.
 33.  Learned to write **media queries** in **HTML**.
 34.  Allow browser to decide the best image to download, using **srcset** attribute, width descriptor and the **sizes** attribute of **img** element.
-35.  **<script>alert(‘XSS’)</script>**
-36.  <script>alert(‘XSS’)</script>
