@@ -1,7 +1,7 @@
 # Tourisy
 
 
-> [DEMO LINK](https://ashokcpg.gitlab.io/tourisy/) 
+> [DEMO LINK](https://ashokcpg.github.io/tourisy/) 
 
 This is one of the project I have made while I was learning Advanced CSS and Sass following a udemy course.
 
